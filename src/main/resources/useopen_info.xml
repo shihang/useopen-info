@@ -1,0 +1,73 @@
+<Useopen>
+<Company>
+	<id>jboss</id>
+	<name>JBoss</name>
+	<website>http://www.jboss.org</website>
+	<forum></forum>
+	<blog>
+		<url>http://blog.jboss.org</url>
+		<category>as</category>
+		<link>link2</link>
+	</blog>
+	
+	<project>
+		<id>jbossas</id>
+		<name>JBoss AS</name>
+		<overview></overview>
+		<license>LGPL</license>
+		<website></website>
+		<manual></manual>
+		<faq></faq>
+		<wiki></wiki>
+		<download></download>
+	</project>
+	<project>
+        <id>hornetq</id>
+        <name>JBoss HornetQ</name>
+        <overview>The new ultra high performance enterprise grade messaging system from JBoss</overview>
+        <license>APL2</license>
+        <website>http://www.jboss.org/hornetq</website>
+        <manual>http://www.jboss.org/hornetq/docs.html</manual>
+        <faq>http://community.jboss.org/wiki/HornetQFrequentlyAskedQuestions</faq>
+        <wiki>http://community.jboss.org/wiki/HornetQ</wiki>
+        <download>http://www.jboss.org/hornetq/downloads.html</download>
+        <blog>
+	        <url>http://hornetq.blogspot.com/</url>
+        </blog>
+        <userList>http://community.jboss.org/en/hornetq?view=discussions</userList>
+        <devList>http://community.jboss.org/en/hornetq/dev?view=discussions</devList>
+        <stableVersion>
+            <release>2.1.1</release>
+            <date>2010/06/15</date>
+            <binary>http://sourceforge.net/projects/hornetq/files/2.1.1.Final/hornetq-2.1.1.Final.zip/download</binary>
+            <source>http://sourceforge.net/projects/hornetq/files/2.1.0.Final/hornetq-2.1.1.Final-src.zip/download</source>
+            <branch>http://anonsvn.jboss.org/repos/hornetq/trunk/</branch>
+        </stableVersion>
+        <issueTracker>
+            <url>https://jira.jboss.org/browse/HORNETQ</url>
+        </issueTracker>
+        <twitter>
+            <id>hornetq</id>
+            <name></name>
+            <description></description>
+        </twitter>
+        <leader>
+            <id>tim.fox</id>
+            <firstname>tim</firstname>
+            <lastname>fox</lastname>
+            <title>HornetQ Leader</title>
+	        <twitter>
+	            <id>timfox</id>
+	            <name>Tim Fox</name>
+	            <description></description>
+	        </twitter>
+        </leader>
+        <developer>
+            <id>clebert.suconic</id>
+            <firstname>Clebert</firstname>
+            <lastname>Suconic</lastname>
+            <title>JBoss Profiling Leader</title>
+        </developer>
+    </project>
+</Company>
+</Useopen>

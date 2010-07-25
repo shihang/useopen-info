@@ -1,27 +1,92 @@
 <Useopen>
 <Company>
-	<id>jboss</id>
-	<name>JBoss</name>
-	<website>http://www.jboss.org</website>
-	<forum></forum>
-	<blog>
-		<url>http://blog.jboss.org</url>
-		<category>as</category>
-		<link>link2</link>
-	</blog>
+    <id>jboss</id>
+    <name>JBoss</name>
+    <website>http://www.jboss.org</website>
+    <forum>http://community.jboss.org/</forum>
+    <blog>
+        <url>http://planet.jboss.org/</url>
+        <category></category>
+        <link></link>
+    </blog>
 	
-	<project>
-		<id>jbossas</id>
-		<name>JBoss AS</name>
-		<overview></overview>
-		<license>LGPL</license>
-		<website></website>
-		<manual></manual>
-		<faq></faq>
-		<wiki></wiki>
-		<download></download>
-	</project>
-	<project>
+    <project>
+        <id>jbossas</id>
+        <name>JBoss AS</name>
+        <overview>JBoss Application Server is the #1 most widely used Java application server on the market.</overview>
+        <license>LGPL</license>
+        <website>http://www.jboss.org/jbossas</website>
+        <manual>http://www.jboss.org/jbossas/docs/6-x.html</manual>
+        <faq></faq>
+        <wiki></wiki>
+        <download>http://www.jboss.org/jbossas/downloads.html</download>
+        <userList>http://community.jboss.org/en/jbossas?view=discussions</userList>
+        <devList>http://community.jboss.org/en/jbossas/dev?view=discussions</devList>
+        <stableVersion>
+            <release>5.1.0</release>
+            <date>2009/05/23</date>
+            <binary>http://sourceforge.net/projects/jboss/files/JBoss/JBoss-5.1.0.GA/jboss-5.1.0.GA.zip/download</binary>
+            <source>http://sourceforge.net/projects/jboss/files/JBoss/JBoss-5.1.0.GA/jboss-5.1.0.GA-src.tar.gz/download</source>
+            <branch>http://anonsvn.jboss.org/repos/jbossas/branches/JBPAPP_5_1/</branch>
+        </stableVersion>
+        <developVersion>
+            <release>6.0.0.M3</release>
+            <date>2010/04/29</date>
+            <binary>http://sourceforge.net/projects/jboss/files/JBoss/JBoss-6.0.0.M3/jboss-as-distribution-6.0.0.20100429-M3.zip/download</binary>
+            <source>http://sourceforge.net/projects/jboss/files/JBoss/JBoss-6.0.0.M3/jboss-as-distribution-6.0.0.20100429-M3-src.zip/download</source>
+            <branch>http://anonsvn.jboss.org/repos/jbossas/trunk/</branch>
+        </developVersion>
+        <issueTracker>
+            <url>https://jira.jboss.org/browse/JBAS</url>
+        </issueTracker>
+        <leader>
+            <id>dandreadis</id>
+            <firstname>Dimitris</firstname>
+            <lastname>Andreadis</lastname>
+            <title>JBoss AS Team lead</title>
+            <blog>
+	        <url>http://dandreadis.blogspot.com/</url>
+            </blog>
+            <twitter>
+                <id>dandreadis</id>
+                <name>Dimitris Andreadis</name>
+                <description></description>
+            </twitter>
+        </leader>
+        <developer>
+            <id>Brian.Stansberry</id>
+            <firstname>Brian</firstname>
+            <lastname>Stansberry</lastname>
+            <title>JBoss AS Cluster Team leader</title>
+            <blog>
+	        <url>http://bstansberry.wordpress.com/</url>
+            </blog>
+        </developer>
+        <developer>
+            <id>ALRubinger</id>
+            <firstname>Andrew</firstname>
+            <lastname>Rubinger</lastname>
+            <title>JBoss AS EJB Team</title>
+            <blog>
+	        <url>http://exitcondition.alrubinger.com/</url>
+            </blog>
+            <twitter>
+                <id>ALRubinger</id>
+                <name>Andrew Lee Rubinger</name>
+                <description></description>
+            </twitter>
+        </developer>
+        <developer>
+            <id>Jaikiran</id>
+            <firstname>Jaikiran</firstname>
+            <lastname>Pai</lastname>
+            <title>JBoss AS EJB Team</title>
+            <blog>
+	        <url>http://jaitechwriteups.blogspot.com/</url>
+            </blog>
+        </developer>
+    </project>
+    <project>
         <id>hornetq</id>
         <name>JBoss HornetQ</name>
         <overview>The new ultra high performance enterprise grade messaging system from JBoss</overview>
@@ -32,7 +97,7 @@
         <wiki>http://community.jboss.org/wiki/HornetQ</wiki>
         <download>http://www.jboss.org/hornetq/downloads.html</download>
         <blog>
-	        <url>http://hornetq.blogspot.com/</url>
+	    <url>http://hornetq.blogspot.com/</url>
         </blog>
         <userList>http://community.jboss.org/en/hornetq?view=discussions</userList>
         <devList>http://community.jboss.org/en/hornetq/dev?view=discussions</devList>
@@ -56,17 +121,22 @@
             <firstname>tim</firstname>
             <lastname>fox</lastname>
             <title>HornetQ Leader</title>
-	        <twitter>
-	            <id>timfox</id>
-	            <name>Tim Fox</name>
-	            <description></description>
-	        </twitter>
+            <twitter>
+                <id>timfox</id>
+                <name>Tim Fox</name>
+                <description></description>
+            </twitter>
         </leader>
         <developer>
             <id>clebert.suconic</id>
             <firstname>Clebert</firstname>
             <lastname>Suconic</lastname>
-            <title>JBoss Profiling Leader</title>
+            <title></title>
+            <twitter>
+                <id>clebertsuconic</id>
+                <name>Clebert Suconic</name>
+                <description></description>
+            </twitter>
         </developer>
     </project>
 </Company>
